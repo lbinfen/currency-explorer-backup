@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "type": "eth",
+      "name": "内网ETH钱包节点",
+      "url": "http://192.168.1.223:8545",
+      "etherscanUrl": "https://api-rinkeby.etherscan.io/api",
+      "etherscanApikey": ""
+    },
+    {
+      "type": "btc",
+      "name": "内网VHKD钱包节点",
+      "url": "http://192.168.1.42:8994",
+      "rpc": "http://192.168.1.216:8994",
+      "rpcuser": "swkj",
+      "rpcpwd": "123456"
+    },
+    {
+      "type": "btc",
+      "name": "内网BTC钱包节点",
+      "url": "http://192.168.1.60:18891",
+      "rpc": "http://192.168.1.60:8891",
+      "rpcuser": "swkj",
+      "rpcpwd": "123456"
+    },
+    {
+      "type": "btc",
+      "name": "内网LTC钱包节点",
+      "url": "http://192.168.1.42:8995",
+      "rpc": "http://192.168.1.216:8995",
+      "rpcuser": "swkj",
+      "rpcpwd": "123456"
+    },
+    {
+      "type": "btc",
+      "name": "内网BCHABC钱包节点",
+      "url": "http://192.168.1.60:22222",
+      "rpc": "http://192.168.1.60:12222",
+      "rpcuser": "bch",
+      "rpcpwd": "123456"
+    },
+    {
+      "type": "btc",
+      "name": "内网BTG钱包节点",
+      "url": "http://192.168.1.42:9994",
+      "rpc": "http://192.168.1.218:9994",
+      "rpcuser": "swkj",
+      "rpcpwd": "123456"
+    }
+  ],
+  "dingRobotApiKey": "f3128ddd17893d8b783728b7881d38bb79ed305c91243bb668aa65542b28923d",
+  "checkRate": 1800,
+  "test": false
+}

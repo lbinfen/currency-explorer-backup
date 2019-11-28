@@ -1,0 +1,36 @@
+{
+  "name": "EthereumClassicExplorer",
+  "private": false,
+  "version": "0.2.0",
+  "description": "A lightweight ethereum classic block explorer",
+  "repository": "https://github.com/ethereumproject/explorer",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"node tools/grabber.js \" \"node app.js\" ",
+    "test": "npm run testfile \"tests/**/*.spec.js\"",
+    "testfile": "mocha --require babel-core/register --exit --timeout 1000000"
+  },
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "body-parser": "^1.12.2",
+    "concurrently": "^3.5.1",
+    "ejs": "~2.5.7",
+    "ethereum-input-data-decoder": "0.0.15",
+    "express": "^4.16.0",
+    "mongoose": "^4.13.8",
+    "morgan": "^1.9.1",
+    "run-parallel": "^1.1.9",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.0.4",
+    "solc": "^0.4.19",
+    "web3": "^0.19.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "chai": "^4.1.2",
+    "copyfiles": "^1.2.0",
+    "ethereumjs-testrpc": "^6.0.3",
+    "mocha": "^4.1.0",
+    "request": "^2.88.0"
+  }
+}

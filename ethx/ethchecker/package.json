@@ -1,0 +1,11 @@
+{
+  "name": "ethchecker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ding-robot": "^1.0.0",
+    "request": "^2.88.0",
+    "web3": "^1.2.1"
+  }
+}
