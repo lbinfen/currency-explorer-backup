@@ -1,0 +1,29 @@
+2000=>numWords should >= 12 length
+2001=>mnemonic is required
+2002=>currency is required
+2003=>start should be >= 0
+2004=>end shoud be >= start
+2005=>walletId is required
+2006=>xpubKey is required
+2007=>address is required
+2008=>address change is invalid
+2009=>address index is invalid
+2010=>WIF is required
+2011=>utxos is required
+2012=>targets is required
+2013=>feeRate is required
+2014=>changeAddress is required
+2015=>utxos are not enough
+2016=>from is required
+2017=>to is required
+2018=>value is required
+2019=>keyStore is required
+2020=>privateKey is required
+2021=>gas limit is required
+2022=>gas price is required
+2023=>txHex is required
+2024=>key is required
+2025=>redeemScript is required
+2026=>quantity is required
+2027=>fee is required
+2028=>serializedTransaction is required

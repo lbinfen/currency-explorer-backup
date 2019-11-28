@@ -1,0 +1,8 @@
+node_modules
+bip39-standalone.html
+fix_modules/scrypt/build/
+fix_modules/scrypt/scrypt/scrypt-1.2.0/
+fix_modules/scrypt/scrypt/scrypt-1.2.0/Makefile
+fix_modules/scrypt/scrypt/scrypt-1.2.0/config.h
+fix_modules/scrypt/scrypt/scrypt-1.2.0/config.status
+fix_modules/scrypt/scrypt/scrypt-1.2.0/config.log

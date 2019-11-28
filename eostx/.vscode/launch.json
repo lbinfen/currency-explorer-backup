@@ -1,0 +1,59 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console) extool",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/extool/bin/Debug/netcoreapp2.2/extool.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+
+        {
+            "name": ".NET Core Launch (console) newaccountdemo",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/newaccountdemo/bin/Debug/netcoreapp2.2/newaccountdemo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch newaccount1.js",
+            "program": "${workspaceFolder}/src/newaccountdemo/newaccount1.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch newaccount2.js",
+            "program": "${workspaceFolder}/src/newaccountdemo/newaccount2.js"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/client/bin/Debug/netcoreapp2.2/client.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}

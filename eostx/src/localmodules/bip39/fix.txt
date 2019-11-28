@@ -1,0 +1,7 @@
+webpack target:
+
+https://webpack.docschina.org/configuration/target/#target
+
+webpack.config.ecoinsdk.node.js run error:
+
+https://github.com/barrysteyn/node-scrypt/issues/162

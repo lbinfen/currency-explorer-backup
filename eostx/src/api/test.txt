@@ -1,0 +1,8 @@
+http://localhost:15004/v1/service/pack_transaction
+
+{
+    "account": "eosio.token",
+	"authorization": [{"actor": "tester112345", "permission": "active" }],
+	"name": "transfer",
+	"data":  { "from": "tester112345", "to": "tester212345", "quantity": "0.0001 EOS", "memo": "hello crypto world!" }
+}

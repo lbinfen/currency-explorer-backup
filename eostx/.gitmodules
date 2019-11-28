@@ -1,0 +1,12 @@
+[submodule "src/localmodules/eosjs-ecc"]
+	path = src/localmodules/eosjs-ecc
+	url = https://github.com/eosaction/eosjs-ecc.git
+	branch = vhkdio
+[submodule "src/localmodules/eosjs"]
+	path = src/localmodules/eosjs
+	url = https://github.com/eosaction/eosjs.git
+	branch = vhkdio
+[submodule "src/localmodules/bip39"]
+	path = src/localmodules/bip39
+	url = https://github.com/eosaction/bip39.git
+	branch = nv

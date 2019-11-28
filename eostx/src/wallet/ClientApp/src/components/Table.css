@@ -1,0 +1,8 @@
+﻿.text-break {
+  word-break: break-all;
+}
+
+td .nav-link,
+th .nav-link {
+  padding: 0
+}

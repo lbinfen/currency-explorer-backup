@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "eosjs": "../localmodules/eosjs",
+    "node-fetch": "^2.6.0"
+  }
+}
