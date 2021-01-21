@@ -21,7 +21,7 @@
     "morgan": "^1.9.1",
     "run-parallel": "^1.1.9",
     "serve-favicon": "~2.4.5",
-    "socket.io": "^2.0.4",
+    "socket.io": "^2.4.0",
     "solc": "^0.4.19",
     "web3": "^0.19.1"
   },
