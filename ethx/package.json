@@ -16,7 +16,7 @@
     "concurrently": "^3.5.1",
     "ejs": "~2.5.7",
     "ethereum-input-data-decoder": "0.0.15",
-    "express": "^4.16.0",
+    "express": "^4.17.3",
     "mongoose": "^4.13.8",
     "morgan": "^1.9.1",
     "run-parallel": "^1.1.9",
